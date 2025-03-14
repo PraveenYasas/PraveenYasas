@@ -61,7 +61,6 @@
 </td>
 
 </tr>
-[![praveen's GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=PraveenYasas&theme=tokyonight)](https://git.io/praveenscience)
 
 | ![Praveen's github stats](https://github-readme-stats.vercel.app/api?username=PraveenYasas&show_icons=true&theme=tokyonight) | ![Praveen GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=PraveenYasas664&theme=tokyonight) |
 | --- | --- |
