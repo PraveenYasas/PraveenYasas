@@ -19,26 +19,42 @@
 <br>
 
 <h3 align="left"><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30">Connect with me 🤝 </h3>
+ <p align="left">
+ <a href="https://www.linkedin.com/in/praveen-yasas-943b6026a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Praveen Yasas" height="30" width="40" /></a>
+ <a href="https://stackoverflow.com/users/22816667/praveen-yasas-2001" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="Praveen Yasas" height="30" width="40" /></a>
+ <a href="https://www.facebook.com/praveen.sangarange/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Praveen Yasas" height="30" width="40" /></a>
+ <a href="https://www.instagram.com/praveen_yasas_/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="praveen_yasas_" height="30" width="40" /></a>
+ <a href="https://www.geeksforgeeks.org/user/praveenyaorvh/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="praveenyaorvh" height="30" width="40" /></a>
+ </p>
+
+<h3 align="left"><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30">Languages and Tools 🚀</h3>
+
+### 🖥️ Programming Languages
 <p align="left">
+  <img src="https://skillicons.dev/icons?i=java,python,js,ts,html,css" />
+</p>
 
-<a href="www.linkedin.com/in/praveen-yasas-943b6026a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="praveen yasas" height="30" width="40" /></a>
-<a href="stackoverflow.com/users/22816667/praveen-yasas-2001" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="praveen yasas" height="30" width="40" /></a>
-<a href="www.facebook.com/praveen.sangarange" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="praveen yasas" height="30" width="40" /></a>
-<a href="https://www.instagram.com/praveen_yasas_/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="praveen_yasas_" height="30" width="40" /></a>
-<a href="https://www.geeksforgeeks.org/user/praveenyaorvh/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="ptraveen yasas" height="30" width="40" /></a>
-</p>'
+### 🏗️ Frameworks & Libraries
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=spring,nodejs,react,flutter" />
+</p>
 
-<h2> Skills <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
-<a href= https://github.com/PraveenYasas?tab=repositories&q=&type=&language=java&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/java.svg'> </a>
-<a href= https://github.com/PraveenYasas?tab=repositories&q=&type=&language=python&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/python.svg'> </a>
-<a href= https://github.com/PraveenYasas?tab=repositories&q=&type=&language=reactjs&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/reactjs.svg'> </a>
-<a href= https://github.com/PraveenYasas?tab=repositories&q=&type=&language=javascript&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/javascript.svg'> </a>
-<a href= https://github.com/PraveenYasas?tab=repositories&q=&type=&language=html&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/html.svg'> </a>
-<a href= https://github.com/PraveenYasas?tab=repositories&q=&type=&language=csharp&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/csharp.svg'> </a>
-<a href= https://github.com/PraveenYasas?tab=repositories&q=&type=&language=flutter&sort > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/flutter.svg'> </a>
-<a href="https://github.com/PraveenYasas?tab=repositories&q=&type=&language=mysql&sort="><img width="32px" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/mysql.svg"></a>
-<a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="32px"></a>
+### 🛢️ Databases & Cloud Services
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,aws" />
+</p>
 
+### 🛠️ Development & DevOps Tools
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,postman,figma" />
+</p>
+
+### 🔗 Version Control & Collaboration
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,discord" />
+</p>
+
+ <br>
 
 ### ⚙️ &nbsp;GitHub Analytics
 
