@@ -1,6 +1,6 @@
 <!-- ============ HEADER ============ -->
 <p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Praveen Yasas - Passionate Developer" />
+  <img src="./banner.svg" width="100%" alt="Praveen Yasas - Passionate Developer" />
 </p>
 
 <p align="center">
@@ -40,75 +40,28 @@ public class PraveenYasas {
 <!-- ============ TECH STACK ============ -->
 ## 🛠️ Tech Stack
 
-<table>
-  <tr>
-    <td><b>Languages</b></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,python,js,ts,html,css&theme=light" />
-        <img src="https://skillicons.dev/icons?i=java,python,js,ts,html,css&theme=dark" alt="Java, Python, JavaScript, TypeScript, HTML, CSS" />
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Frameworks</b></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=spring,nodejs,react,flutter&theme=light" />
-        <img src="https://skillicons.dev/icons?i=spring,nodejs,react,flutter&theme=dark" alt="Spring, Node.js, React, Flutter" />
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Databases &amp; Cloud</b></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=mongodb,mysql,firebase,aws&theme=light" />
-        <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,aws&theme=dark" alt="MongoDB, MySQL, Firebase, AWS" />
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Tools</b></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,github,docker,postman,figma,vscode,discord&theme=light" />
-        <img src="https://skillicons.dev/icons?i=git,github,docker,postman,figma,vscode,discord&theme=dark" alt="Git, GitHub, Docker, Postman, Figma, VS Code, Discord" />
-      </picture>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,python,js,ts,html,css,spring,nodejs,react,flutter,mongodb,mysql,firebase,aws,git,github,docker,postman,figma,vscode,discord&perline=7" alt="Java, Python, JavaScript, TypeScript, HTML, CSS, Spring, Node.js, React, Flutter, MongoDB, MySQL, Firebase, AWS, Git, GitHub, Docker, Postman, Figma, VS Code, Discord" />
+</p>
 
 <!-- ============ ANALYTICS ============ -->
 <!-- All cards below are generated daily by .github/workflows/readme-stats.yml -->
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/stats-dark.svg" />
-    <img src="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/stats-light.svg" height="170" alt="GitHub stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/top-langs-dark.svg" />
-    <img src="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/top-langs-light.svg" height="170" alt="Top languages" />
-  </picture>
+  <img src="./profile/stats-dark.svg" height="170" alt="GitHub stats" />
+  <img src="./profile/top-langs-dark.svg" height="170" alt="Top languages" />
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/streak-dark.svg" />
-    <img src="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/streak-light.svg" alt="GitHub streak" />
-  </picture>
+  <img src="./profile/streak-dark.svg" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/snake-light.svg" width="100%" alt="Contribution snake" />
-  </picture>
+  <img src="./profile/snake-dark.svg" width="100%" alt="Contribution snake" />
 </p>
 
 <!-- ============ FOOTER ============ -->
 <p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Thanks for visiting" />
+  <img src="./footer.svg" width="100%" alt="Thanks for visiting" />
 </p>

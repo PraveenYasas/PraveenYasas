@@ -21,25 +21,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # ---------- GitHub stats card ----------
-      - name: Stats card (dark)
+      # Stats card needs a personal access token saved as the STATS_TOKEN repo secret
+      - name: Stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
           options: username=praveenYasas&show_icons=true&count_private=true&theme=tokyonight&hide_border=true
           path: profile/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
-      - name: Stats card (light)
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=praveenYasas&show_icons=true&count_private=true&bg_color=ffffff&title_color=7c3aed&icon_color=2563eb&text_color=334155&ring_color=7c3aed&border_color=e4e2e2
-          path: profile/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # ---------- Top languages card ----------
-      - name: Top languages (dark)
+      - name: Top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
@@ -47,39 +38,20 @@ jobs:
           path: profile/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Top languages (light)
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=praveenYasas&layout=compact&langs_count=8&bg_color=ffffff&title_color=7c3aed&text_color=334155&border_color=e4e2e2
-          path: profile/top-langs-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # ---------- Streak card ----------
-      - name: Streak card (dark)
+      - name: Streak card
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
           options: user=praveenYasas&theme=tokyonight&hide_border=true
           path: profile/streak-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Streak card (light)
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          options: user=praveenYasas&theme=default&ring=7C3AED&fire=2563EB&currStreakLabel=7C3AED
-          path: profile/streak-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # ---------- Contribution snake ----------
       - name: Contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: praveenYasas
           outputs: |
-            profile/snake-light.svg?color_snake=#7c3aed
             profile/snake-dark.svg?palette=github-dark&color_snake=#a78bfa
 
-      # ---------- Commit ----------
       - name: Commit updated cards
         run: |
           git config user.name "github-actions[bot]"
