@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Praveen Yasas - Passionate Developer">
+  <title>Praveen Yasas</title>
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+    .name { font-size: 70px; font-weight: 800; letter-spacing: -1.5px; }
+    .typed { font-size: 24px; fill: #e2e8f0; }
+    .prompt { font-size: 24px; fill: #67e8f9; font-weight: 700; }
+    .pill { font-size: 15px; fill: #cbd5e1; }
+    .meta { font-size: 17px; fill: #94a3b8; }
+    .code { font-size: 15px; }
+    .file { font-size: 13px; fill: #64748b; }
+    .blink { animation: blink 1s steps(1) infinite; }
+    .float { animation: float 6s ease-in-out infinite; }
+    .b1 { animation: drift1 14s ease-in-out infinite; }
+    .b2 { animation: drift2 18s ease-in-out infinite; }
+    .b3 { animation: drift3 16s ease-in-out infinite; }
+    .pulse { animation: pulse 2s ease-in-out infinite; transform-origin: 86px 73px; }
+    .rise { animation: rise .9s ease-out both; }
+    .rise2 { animation: rise .9s .15s ease-out both; }
+    .rise3 { animation: rise .9s .3s ease-out both; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    @keyframes drift1 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(90px, 40px); } }
+    @keyframes drift2 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-110px, -30px); } }
+    @keyframes drift3 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-60px, 50px); } }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .45; transform: scale(.75); } }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .blink, .float, .b1, .b2, .b3, .pulse, .rise, .rise2, .rise3 { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#1a1b27"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="664" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset=".5" stop-color="#93c5fd"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1200 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset=".5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
+    <clipPath id="frame"><rect width="1200" height="320" rx="24"/></clipPath>
+    <clipPath id="tc0"><rect x="98" y="192" width="0" height="36"><animate attributeName="width" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.00438;0.00875;0.01313;0.0175;0.02188;0.02625;0.03063;0.035;0.03938;0.04375;0.04813;0.0525;0.05688;0.06125;0.06563;0.07;0.07438;0.07875;0.08313;0.0875;0.19562;0.1975;0.19937;0.20125;0.20312;0.205;0.20688;0.20875;0.21063;0.2125;0.21438;0.21625;0.21813;0.22;0.22187;0.22375;0.22563;0.2275;0.22937;0.23125" values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;230.4;244.8;259.2;273.6;288;273.6;259.2;244.8;230.4;216;201.6;187.2;172.8;158.4;144;129.6;115.2;100.8;86.4;72;57.6;43.2;28.8;14.4;0"/></rect></clipPath><clipPath id="tc1"><rect x="98" y="192" width="0" height="36"><animate attributeName="width" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25438;0.25875;0.26312;0.2675;0.27187;0.27625;0.28063;0.285;0.28937;0.29375;0.29812;0.3025;0.30688;0.31125;0.31562;0.44562;0.4475;0.44937;0.45125;0.45312;0.455;0.45687;0.45875;0.46062;0.4625;0.46437;0.46625;0.46812;0.47;0.47187" values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;201.6;187.2;172.8;158.4;144;129.6;115.2;100.8;86.4;72;57.6;43.2;28.8;14.4;0"/></rect></clipPath><clipPath id="tc2"><rect x="98" y="192" width="0" height="36"><animate attributeName="width" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.50438;0.50875;0.51313;0.5175;0.52187;0.52625;0.53063;0.535;0.53938;0.54375;0.54812;0.5525;0.55688;0.56125;0.56563;0.57;0.57437;0.57875;0.58313;0.5875;0.69562;0.6975;0.69937;0.70125;0.70312;0.705;0.70688;0.70875;0.71062;0.7125;0.71437;0.71625;0.71813;0.72;0.72187;0.72375;0.72562;0.7275;0.72937;0.73125" values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;230.4;244.8;259.2;273.6;288;273.6;259.2;244.8;230.4;216;201.6;187.2;172.8;158.4;144;129.6;115.2;100.8;86.4;72;57.6;43.2;28.8;14.4;0"/></rect></clipPath><clipPath id="tc3"><rect x="98" y="192" width="0" height="36"><animate attributeName="width" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.75438;0.75875;0.76313;0.7675;0.77187;0.77625;0.78063;0.785;0.78938;0.79375;0.79812;0.8025;0.80688;0.81125;0.81563;0.82;0.82437;0.82875;0.83313;0.8375;0.84188;0.84625;0.85062;0.94562;0.9475;0.94937;0.95125;0.95312;0.955;0.95688;0.95875;0.96062;0.9625;0.96437;0.96625;0.96813;0.97;0.97187;0.97375;0.97562;0.9775;0.97937;0.98125;0.98313;0.985;0.98687" values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;230.4;244.8;259.2;273.6;288;302.4;316.8;331.2;316.8;302.4;288;273.6;259.2;244.8;230.4;216;201.6;187.2;172.8;158.4;144;129.6;115.2;100.8;86.4;72;57.6;43.2;28.8;14.4;0"/></rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <g filter="url(#blur)" opacity=".5">
+      <circle class="b1" cx="230" cy="40" r="150" fill="#7c3aed"/>
+      <circle class="b2" cx="760" cy="330" r="170" fill="#2563eb"/>
+      <circle class="b3" cx="1120" cy="30" r="140" fill="#0891b2"/>
+    </g>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect y="316" width="1200" height="4" fill="url(#edge)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="319" rx="24" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+
+  <!-- left: intro -->
+  <g class="rise">
+    <rect x="64" y="56" width="168" height="34" rx="17" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
+    <circle class="pulse" cx="86" cy="73" r="5" fill="#4ade80"/>
+    <text x="100" y="78" class="mono pill">$ whoami</text>
+  </g>
+  <text x="62" y="160" class="sans name rise2" fill="url(#nameGrad)">Praveen Yasas</text>
+  <g class="rise3">
+    <text x="66" y="218" class="mono prompt">&gt;</text>
+    <text x="98" y="218" clip-path="url(#tc0)" class="mono typed" textLength="288" lengthAdjust="spacingAndGlyphs">Passionate Developer</text><text x="98" y="218" clip-path="url(#tc1)" class="mono typed" textLength="216" lengthAdjust="spacingAndGlyphs">Java Enthusiast</text><text x="98" y="218" clip-path="url(#tc2)" class="mono typed" textLength="288" lengthAdjust="spacingAndGlyphs">Full-Stack Developer</text><text x="98" y="218" clip-path="url(#tc3)" class="mono typed" textLength="331.2" lengthAdjust="spacingAndGlyphs">Code. Create. Innovate.</text>
+    <rect class="blink" x="100" y="197" width="12" height="26" rx="2" fill="#67e8f9"><animate attributeName="x" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.00438;0.00875;0.01313;0.0175;0.02188;0.02625;0.03063;0.035;0.03938;0.04375;0.04813;0.0525;0.05688;0.06125;0.06563;0.07;0.07438;0.07875;0.08313;0.0875;0.19562;0.1975;0.19937;0.20125;0.20312;0.205;0.20688;0.20875;0.21063;0.2125;0.21438;0.21625;0.21813;0.22;0.22187;0.22375;0.22563;0.2275;0.22937;0.23125;0.25438;0.25875;0.26312;0.2675;0.27187;0.27625;0.28063;0.285;0.28937;0.29375;0.29812;0.3025;0.30688;0.31125;0.31562;0.44562;0.4475;0.44937;0.45125;0.45312;0.455;0.45687;0.45875;0.46062;0.4625;0.46437;0.46625;0.46812;0.47;0.47187;0.50438;0.50875;0.51313;0.5175;0.52187;0.52625;0.53063;0.535;0.53938;0.54375;0.54812;0.5525;0.55688;0.56125;0.56563;0.57;0.57437;0.57875;0.58313;0.5875;0.69562;0.6975;0.69937;0.70125;0.70312;0.705;0.70688;0.70875;0.71062;0.7125;0.71437;0.71625;0.71813;0.72;0.72187;0.72375;0.72562;0.7275;0.72937;0.73125;0.75438;0.75875;0.76313;0.7675;0.77187;0.77625;0.78063;0.785;0.78938;0.79375;0.79812;0.8025;0.80688;0.81125;0.81563;0.82;0.82437;0.82875;0.83313;0.8375;0.84188;0.84625;0.85062;0.94562;0.9475;0.94937;0.95125;0.95312;0.955;0.95688;0.95875;0.96062;0.9625;0.96437;0.96625;0.96813;0.97;0.97187;0.97375;0.97562;0.9775;0.97937;0.98125;0.98313;0.985;0.98687" values="100;114.4;128.8;143.2;157.6;172;186.4;200.8;215.2;229.6;244;258.4;272.8;287.2;301.6;316;330.4;344.8;359.2;373.6;388;373.6;359.2;344.8;330.4;316;301.6;287.2;272.8;258.4;244;229.6;215.2;200.8;186.4;172;157.6;143.2;128.8;114.4;100;114.4;128.8;143.2;157.6;172;186.4;200.8;215.2;229.6;244;258.4;272.8;287.2;301.6;316;301.6;287.2;272.8;258.4;244;229.6;215.2;200.8;186.4;172;157.6;143.2;128.8;114.4;100;114.4;128.8;143.2;157.6;172;186.4;200.8;215.2;229.6;244;258.4;272.8;287.2;301.6;316;330.4;344.8;359.2;373.6;388;373.6;359.2;344.8;330.4;316;301.6;287.2;272.8;258.4;244;229.6;215.2;200.8;186.4;172;157.6;143.2;128.8;114.4;100;114.4;128.8;143.2;157.6;172;186.4;200.8;215.2;229.6;244;258.4;272.8;287.2;301.6;316;330.4;344.8;359.2;373.6;388;402.4;416.8;431.2;416.8;402.4;388;373.6;359.2;344.8;330.4;316;301.6;287.2;272.8;258.4;244;229.6;215.2;200.8;186.4;172;157.6;143.2;128.8;114.4;100"/></rect>
+    <text x="66" y="268" class="sans meta" xml:space="preserve"><tspan fill="#a78bfa">●</tspan> Bandaragama, Sri Lanka    <tspan fill="#60a5fa">●</tspan> University of Westminster</text>
+  </g>
+
+  <!-- right: code card -->
+  <g class="float">
+    <rect x="748" y="48" width="396" height="224" rx="16" fill="#0f111a" fill-opacity=".82" stroke="#ffffff" stroke-opacity=".1"/>
+    <circle cx="772" cy="72" r="6" fill="#ff5f57"/>
+    <circle cx="792" cy="72" r="6" fill="#febc2e"/>
+    <circle cx="812" cy="72" r="6" fill="#28c840"/>
+    <text x="946" y="77" text-anchor="middle" class="mono file">Praveen.java</text>
+    <line x1="748" y1="90" x2="1144" y2="90" stroke="#ffffff" stroke-opacity=".07"/>
+    <text x="772" y="118" class="mono code" xml:space="preserve"><tspan fill="#c792ea">public class </tspan><tspan fill="#82aaff">Praveen</tspan><tspan fill="#89ddff"> {</tspan></text><text x="772" y="143" class="mono code" xml:space="preserve"><tspan fill="#82aaff">  String</tspan><tspan fill="#89ddff">[] </tspan><tspan fill="#e2e8f0">stack </tspan><tspan fill="#89ddff">= {</tspan><tspan fill="#c3e88d">"Java"</tspan><tspan fill="#89ddff">, </tspan><tspan fill="#c3e88d">"React"</tspan><tspan fill="#89ddff">};</tspan></text><text x="772" y="168" class="mono code" xml:space="preserve"><tspan fill="#82aaff">  String </tspan><tspan fill="#e2e8f0">home </tspan><tspan fill="#89ddff">= </tspan><tspan fill="#c3e88d">"Sri Lanka"</tspan><tspan fill="#89ddff">;</tspan></text><text x="772" y="193" class="mono code" xml:space="preserve"><tspan fill="#82aaff">  boolean </tspan><tspan fill="#e2e8f0">lovesBadminton </tspan><tspan fill="#89ddff">= </tspan><tspan fill="#f78c6c">true</tspan><tspan fill="#89ddff">;</tspan></text><text x="772" y="218" class="mono code" xml:space="preserve"><tspan fill="#64748b">  // always learning something new</tspan></text><text x="772" y="243" class="mono code" xml:space="preserve"><tspan fill="#89ddff">}</tspan></text>
+  </g>
+</svg>

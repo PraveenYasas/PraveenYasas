@@ -1,77 +1,114 @@
+<!-- ============ HEADER ============ -->
 <p align="center">
-  <img src="https://github.com/thompsonemerson/thompsonemerson/raw/master/cover-thompson.png" height="200"/>
+  <img src="./assets/banner.svg" width="100%" alt="Praveen Yasas - Passionate Developer" />
 </p>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<h1 align="center">Hi , I'm Praveen Yasas <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
-<h2><picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> About me</h2>
 
-<picture> <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width = 250px></picture>
+<p align="center">
+  <a href="https://github.com/praveenYasas?tab=followers"><img src="https://img.shields.io/github/followers/praveenYasas?style=for-the-badge&logo=github&label=Followers&labelColor=1a1b27&color=7c3aed" alt="GitHub followers" /></a>
+  <img src="https://komarev.com/ghpvc/?username=praveenYasas&style=for-the-badge&label=Profile%20Views&color=2563eb" alt="Profile views" />
+</p>
 
-<br><br>
-- 🔭 I’m currently working on University Of Westminster.
-  
-- 🌱 I’m currently learning Java
-  
-- 💬 Ask me about Java
-  
-- ⚡ Fun fact: playing badminton.
-<br>
-<br>
+<!-- ============ ABOUT ============ -->
+## 👨‍💻 About Me
 
-<h3 align="left"><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30">Connect with me 🤝 </h3>
- <p align="left">
- <a href="https://www.linkedin.com/in/praveen-yasas-943b6026a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Praveen Yasas" height="30" width="40" /></a>
- <a href="https://stackoverflow.com/users/22816667/praveen-yasas-2001" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="Praveen Yasas" height="30" width="40" /></a>
- <a href="https://www.facebook.com/praveen.sangarange/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Praveen Yasas" height="30" width="40" /></a>
- <a href="https://www.instagram.com/praveen_yasas_/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="praveen_yasas_" height="30" width="40" /></a>
- <a href="https://www.geeksforgeeks.org/user/praveenyaorvh/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="praveenyaorvh" height="30" width="40" /></a>
- </p>
+```java
+public class PraveenYasas {
 
-<h3 align="left"><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30">Languages and Tools 🚀</h3>
+    String location          = "Bandaragama, Sri Lanka 🇱🇰";
+    String education         = "University of Westminster 🎓";
+    String currentlyLearning = "Java ☕";
+    String askMeAbout        = "Java";
+    String funFact           = "I love playing badminton 🏸";
 
-### 🖥️ Programming Languages
+    String motto() {
+        return "Code. Create. Innovate. 🚀";
+    }
+}
+```
+
+<!-- ============ CONNECT ============ -->
+## 🤝 Connect With Me
+
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=java,python,js,ts,html,css" />
+  <a href="https://www.linkedin.com/in/praveen-yasas-943b6026a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjh6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTN6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6Ii8+PC9zdmc+" alt="LinkedIn" /></a>
+  <a href="https://stackoverflow.com/users/22816667/praveen-yasas-2001"><img src="https://img.shields.io/badge/Stack_Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow" /></a>
+  <a href="https://www.geeksforgeeks.org/user/praveenyaorvh/"><img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
+  <a href="https://www.instagram.com/praveen_yasas_/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://www.facebook.com/praveen.sangarange/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
 </p>
 
-### 🏗️ Frameworks & Libraries
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=spring,nodejs,react,flutter" />
-</p>
+<!-- ============ TECH STACK ============ -->
+## 🛠️ Tech Stack
 
-### 🛢️ Databases & Cloud Services
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,aws" />
-</p>
-
-### 🛠️ Development & DevOps Tools
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=docker,postman,figma" />
-</p>
-
-### 🔗 Version Control & Collaboration
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,discord" />
-</p>
-
- <br>
-
-### ⚙️ &nbsp;GitHub Analytics
-
-<table border="0" align="center">
-<tr border="0">
-<td width="50%" align="center">
-  
-  <a href="https://github.com/praveenYasas"><img align="center" src="https://github-readme-stats.vercel.app/api?username=praveenYasas&theme=tokyonight&show_icons=true&count_private=true" /></a>
-  
-  
-  <a href="https://github.com/praveenYasas"><img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=praveenYasas&theme=tokyonight&hide_border=true" /></a>
-
-</td>
-
-<td width="50%" align="center">
-  <a href="https://github.com/praveenYasas">
-  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=praveenYasas&theme=tokyonight&hide_border=true&no-bg=true&no-frame=true&langs_count=10"/></a>
-  </td>
-</tr>
+<table>
+  <tr>
+    <td><b>Languages</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,python,js,ts,html,css&theme=light" />
+        <img src="https://skillicons.dev/icons?i=java,python,js,ts,html,css&theme=dark" alt="Java, Python, JavaScript, TypeScript, HTML, CSS" />
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Frameworks</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=spring,nodejs,react,flutter&theme=light" />
+        <img src="https://skillicons.dev/icons?i=spring,nodejs,react,flutter&theme=dark" alt="Spring, Node.js, React, Flutter" />
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Databases &amp; Cloud</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=mongodb,mysql,firebase,aws&theme=light" />
+        <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,aws&theme=dark" alt="MongoDB, MySQL, Firebase, AWS" />
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Tools</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,github,docker,postman,figma,vscode,discord&theme=light" />
+        <img src="https://skillicons.dev/icons?i=git,github,docker,postman,figma,vscode,discord&theme=dark" alt="Git, GitHub, Docker, Postman, Figma, VS Code, Discord" />
+      </picture>
+    </td>
+  </tr>
 </table>
+
+<!-- ============ ANALYTICS ============ -->
+<!-- All cards below are generated daily by .github/workflows/readme-stats.yml -->
+## 📊 GitHub Analytics
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/stats-dark.svg" />
+    <img src="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/stats-light.svg" height="170" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/top-langs-dark.svg" />
+    <img src="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/top-langs-light.svg" height="170" alt="Top languages" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/streak-dark.svg" />
+    <img src="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/streak-light.svg" alt="GitHub streak" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/PraveenYasas/PraveenYasas/HEAD/profile/snake-light.svg" width="100%" alt="Contribution snake" />
+  </picture>
+</p>
+
+<!-- ============ FOOTER ============ -->
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" alt="Thanks for visiting" />
+</p>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="Thanks for visiting">
+  <title>Thanks for visiting</title>
+  <defs>
+    <linearGradient id="fw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset=".5" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <clipPath id="fr"><rect width="1200" height="120" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#fr)">
+    <path fill="url(#fw)" opacity=".35" d="M0 44 Q150 66 300 44 Q450 22 600 44 Q750 66 900 44 Q1050 22 1200 44 V120 H0 Z">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0 44 Q150 66 300 44 Q450 22 600 44 Q750 66 900 44 Q1050 22 1200 44 V120 H0 Z;M0 44 Q150 22 300 44 Q450 66 600 44 Q750 22 900 44 Q1050 66 1200 44 V120 H0 Z;M0 44 Q150 66 300 44 Q450 22 600 44 Q750 66 900 44 Q1050 22 1200 44 V120 H0 Z"/>
+    </path>
+    <path fill="url(#fw)" opacity=".6" d="M0 60 Q150 44 300 60 Q450 76 600 60 Q750 44 900 60 Q1050 76 1200 60 V120 H0 Z">
+      <animate attributeName="d" dur="5s" repeatCount="indefinite" values="M0 60 Q150 44 300 60 Q450 76 600 60 Q750 44 900 60 Q1050 76 1200 60 V120 H0 Z;M0 60 Q150 76 300 60 Q450 44 600 60 Q750 76 900 60 Q1050 44 1200 60 V120 H0 Z;M0 60 Q150 44 300 60 Q450 76 600 60 Q750 44 900 60 Q1050 76 1200 60 V120 H0 Z"/>
+    </path>
+    <path fill="url(#fw)" d="M0 80 Q150 90 300 80 Q450 70 600 80 Q750 90 900 80 Q1050 70 1200 80 V120 H0 Z">
+      <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M0 80 Q150 90 300 80 Q450 70 600 80 Q750 90 900 80 Q1050 70 1200 80 V120 H0 Z;M0 80 Q150 70 300 80 Q450 90 600 80 Q750 70 900 80 Q1050 90 1200 80 V120 H0 Z;M0 80 Q150 90 300 80 Q450 70 600 80 Q750 90 900 80 Q1050 70 1200 80 V120 H0 Z"/>
+    </path>
+  </g>
+  <text x="600" y="108" text-anchor="middle" fill="#ffffff" style="font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif; font-size: 18px; font-weight: 600; letter-spacing: 1px;">Thanks for visiting  ·  Keep coding</text>
+</svg>
